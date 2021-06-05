@@ -1,0 +1,9 @@
+body {
+    padding: 0;
+}
+
+#bett {
+    height: 40vh;
+    width: 50vh;
+    border-radius: 50%;
+}

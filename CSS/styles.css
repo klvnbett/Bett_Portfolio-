@@ -22,6 +22,7 @@ body {
     background-color: aqua;
     align-items: center;
     padding: 50px 50px;
+    margin-right: 25vw;
 }
 
 #bett {
@@ -42,4 +43,13 @@ body {
     margin-top: 15vh;
     margin-left: 5px;
     padding-bottom: 4vh;
+}
+
+.skills {
+    background-color: aqua;
+    margin-top: 15vh;
+    margin-right: 35vw;
+    float: right;
+    color: white;
+    height: auto;
 }

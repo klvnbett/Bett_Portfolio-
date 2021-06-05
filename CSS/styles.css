@@ -53,3 +53,26 @@ body {
     color: white;
     height: auto;
 }
+
+h1 {
+    font-size: 3rem;
+    line-height: 5.5rem;
+    color: chocolate;
+}
+
+h2 {
+    font-size: 3.5rem;
+    color: magenta;
+}
+
+h3 {
+    font-size: 2rem;
+    color: rgb(209, 80, 119);
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black
+}

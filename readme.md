@@ -11,7 +11,7 @@ You can install it with the following command in your terminal
 To acces this project, you need to clone it using these steps
 1. Open your terminal(Ctrl+Alt+T)
 2. Use this command to clone `$ git clone https://github.com/klvnbett/Bett_Portfolio-
-3. This will clone the repositoty into your local folder.
+3. This will clone the repository into your local folder.
 ### Technologies Used
 1. HTML
 2. CSS

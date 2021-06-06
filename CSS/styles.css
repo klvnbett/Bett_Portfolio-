@@ -81,6 +81,9 @@ h2 {
 h3 {
     font-size: 2rem;
     color: rgb(209, 80, 119);
+    /* justify-self: center; */
+    
+    align-content: center;
 }
 .myproj {
     margin-top: 20vh;
@@ -104,7 +107,6 @@ h3 {
 }
 .footer {
     background-color: aquamarine;
-    justify-content: center;
 }
 .social-icons a {
     display: inline-block;

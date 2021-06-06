@@ -2,6 +2,7 @@ body {
     font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
     color: #868e96;
+    /* background-image: linear-gradient(to top, rgb(113, 212, 236), rgb(0, 0, 0)) */
 }
 
 @media (min-width: 992px) {
@@ -18,19 +19,23 @@ body {
     background-color: rgb(95, 228, 228);
 }
 
-.header {
-    background-color: aqua;
-    align-items: center;
-    padding: 50px 50px;
-    margin-right: 25vw;
-}
-
-#bett {
-    height: 40vh;
-    width: 50vh;
+.me {
     border-radius: 50%;
 }
 
+.introduction {
+    text-align: center;
+    padding: 25px;
+    margin: 30px;
+    background-color: aqua;
+}
+
+
+}
+.aboutskills {
+    display: flex;
+    flex-direction: row;
+}
 .about {
     height: auto;
     color: white;
@@ -40,39 +45,54 @@ body {
     box-sizing: border-box;
     box-shadow: 0px 0px 10px 0px;
     padding: 20px;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin-left: 5px;
     padding-bottom: 4vh;
 }
-
 .skills {
     background-color: aqua;
-    margin-top: 15vh;
-    margin-right: 35vw;
+    margin-top: 5vh;
+    margin-right: 20vw;
     float: right;
     color: white;
-    height: auto;
+    height: 80%;
+    width: 40%;
 }
-
+.hobbies {
+    background-color: aqua;
+    margin-top: 5vh;
+    margin-right: 20vw;
+    margin-bottom: 12vh;
+    float: right;
+    color: white;
+    height: 80%;
+    width: 40%;
+}
 h1 {
     font-size: 3rem;
     line-height: 5.5rem;
     color: chocolate;
 }
-
 h2 {
     font-size: 3.5rem;
-    color: magenta;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    background-color: aqua;
 }
-
 h3 {
     font-size: 2rem;
     color: rgb(209, 80, 119);
 }
-
 .container {
-    margin-top: 30px;
+    text-align: center;
+    margin-top: 300px;
     display: flex;
     flex-direction: row;
-    border: 1px solid black
+    background-color: aqua;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content;
+    margin-top: 15vh;
 }

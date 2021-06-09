@@ -85,6 +85,9 @@ h3 {
     
     align-content: center;
 }
+.proj {
+    color: rgba(17, 17, 17, 0.966);
+}
 .myproj {
     margin-top: 20vh;
     background-color: aliceblue;
@@ -106,7 +109,13 @@ h3 {
     margin-top: 15vh;
 }
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: aquamarine;
+    /* justify-content: center; */
+}
+.social-icons {
+    margin: 0;
 }
 .social-icons a {
     display: inline-block;

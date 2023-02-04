@@ -1,7 +1,11 @@
+/* *{
+padding: 0;
+margin: 0;
+} */
 body {
     font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
-    color: #868e96;
+    color: #f8f9fa;
     /* background-image: linear-gradient(to top, rgb(113, 212, 236), rgb(0, 0, 0)) */
 }
 
@@ -11,12 +15,34 @@ body {
         padding-left: 17rem;
     }
 }
-
+header{
+    background-color: #1E555c;
+    height: 600px;
+}
 .navbar {
     list-style: none;
     text-decoration: none;
-    margin-right: 25px;
-    background-color: rgb(95, 228, 228);
+    /* margin-right: 5px; */
+    justify-content: space-around;
+    color: #fff;
+    /* background-color: rgb(208, 224, 224); */
+}
+.navbar li{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.section1{
+    background-color: #1E555c;
+    height: 800px;
+    margin: 2rem;
+    padding: 1rem;
+    justify-content: flex-start;
+    background-image:url('/images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
 }
 
 .me {
@@ -27,51 +53,63 @@ body {
     text-align: center;
     padding: 25px;
     margin: 30px;
-    background-color: aqua;
+    /* background-color: rgb(97, 139, 139); */
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
 }
 
 
 }
 .aboutskills {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    /* flex-direction: row; */
 }
 .about {
-    height: auto;
+    /* height: 57vh; */
     color: white;
-    background-color: rgb(25, 186, 192);
-    width: 45vh;
+    /* background-color: rgb(25, 186, 192); */
+    /* width: 50vh; */
     float: left;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 10px 0px;
+    /* box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px; */
     padding: 20px;
     margin-top: 5vh;
     margin-left: 5px;
     padding-bottom: 4vh;
 }
 .skills {
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-top: 5vh;
-    margin-right: 20vw;
+    /* margin-right: 20vw; */
     float: right;
     color: white;
     height: 80%;
     width: 40%;
+    padding: 20px;
 }
 .hobbies {
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-top: 5vh;
-    margin-right: 20vw;
+    /* margin-right: 20vw; */
     margin-bottom: 12vh;
-    float: right;
+    /* float: right; */
     color: white;
-    height: 80%;
+    height: 57vh;
     width: 40%;
+    padding: 20px;
+}
+.quote{
+    float: right;
+    margin-top: 5vh;
+    height: 57vh;
+    margin-bottom: 12vh;
 }
 h1 {
     font-size: 3rem;
     line-height: 5.5rem;
-    color: chocolate;
+    color: black
 }
 h2 {
     font-size: 3.5rem;
@@ -109,10 +147,12 @@ h3 {
     margin-top: 15vh;
 }
 .footer {
+    margin: 25px;
     display: flex;
     justify-content: center;
     background-color: aquamarine;
     /* justify-content: center; */
+    width: 76vw;
 }
 .social-icons {
     margin: 0;
